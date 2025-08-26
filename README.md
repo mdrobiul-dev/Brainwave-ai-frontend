@@ -1,43 +1,70 @@
-A simple **URL shortener web app** built with **React** and **Tailwind CSS**.  
-This project allows users to enter long URLs and generate shorter, shareable links.  
+# Brainwave AI Frontend
 
----
+A modern frontend for AI services built with **React**, **Tailwind CSS**, **Parallax Effects**, and **React Router**. This project delivers a sleek, responsive, and interactive UI for showcasing AI-powered solutions.
 
-## 🚀 Features  
+## 🚀 Features
+- ⚡ Built with **React** for fast and dynamic UI  
+- 🎨 Styled using **Tailwind CSS** for utility-first design  
+- 🌌 Smooth **Parallax Scrolling Effects** for engaging visuals  
+- 🧭 **React Router** for seamless navigation  
+- 📱 Fully responsive design for all devices  
+- 🛠️ Clean, modern code structure  
 
-- ✂️ Shorten long URLs into clean, shareable links  
-- 📋 Copy shortened links with one click  
-- 📱 Responsive UI (mobile-friendly)  
-- ⚡ Fast and lightweight frontend with React & Tailwind  
+## 📂 Project Structure
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Application pages
+│ ├── hooks/ # Custom hooks
+│ ├── assets/ # Images, icons, fonts
+│ ├── App.jsx # Root component
+│ └── main.jsx # Entry point
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
 
----
+bash
+Copy
+Edit
 
-## 🛠️ Technologies Used  
+## 🛠️ Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mdrobiul-dev/Brainwave-ai-frontend.git
+Navigate to the project folder:
 
-- **React.js** – Component-based UI  
-- **Tailwind CSS** – Utility-first styling  
-- **JavaScript (ES6+)** – Logic and interactivity  
+bash
+Copy
+Edit
+cd Brainwave-ai-frontend
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+📦 Build for Production
+bash
+Copy
+Edit
+npm run build
+🔑 Key Technologies
+React
+
+Tailwind CSS
+
+React Router
+
+React Parallax
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repo, open issues, and submit pull requests.
 
 
-## ⚡ How to Run Locally  
-1. Clone the repo  
-   \`\`\`bash
-   git clone https://github.com/mdrobiul-dev/shorturl-generator.git
-   \`\`\`
-2. Go to the project folder  
-   \`\`\`bash
-   cd shorturl-generator
-   \`\`\`
-3. Install dependencies  
-   \`\`\`bash
-   npm install
-   \`\`\`
-4. Start the development server  
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-5. Open in your browser: http://localhost:5173 
- 
-
----
-✨ A simple yet powerful tool to make your links shorter and easier to share!
+💡 Built with passion using React & Tailwind
